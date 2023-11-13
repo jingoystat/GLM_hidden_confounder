@@ -9,7 +9,7 @@ library(MASS)
 library(purrr)
 library(paran)
 set.seed(1)
-#source("cate_src.R") # uncomment this open source file in case library "cate" installation failed
+#source("cate_src.R") # uncomment and use open source file if library "cate" installation failed
 
 ### Data generating function
 generate_data = function(n=300, p=600, K=3, s=1, rho=1, mod="logistic", loading="sparse", sigma_e=1)
