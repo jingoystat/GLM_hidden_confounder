@@ -9,7 +9,7 @@ library(MASS)
 library(purrr)
 library(paran)
 set.seed(1)
-#source("cate_src.R") # uncomment this open source file in case library "cate" installation failed
+#source("cate_src.R") # uncomment and use open source file if library "cate" installation failed
 source("Source_functions.R") 
 
 
